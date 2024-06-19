@@ -1,0 +1,70 @@
+name: irregular_verbs
+description: "Irregular verbs for flutter"
+
+publish_to: 'none'
+
+
+version: 1.1.0+2
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.6
+  easy_localization: ^3.0.7
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^3.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/
+    - assets/languages/
+
+  fonts:
+    - family: Ancient
+      fonts:
+        - asset: assets/fonts/PlayfairDisplay-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/PlayfairDisplay-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/PlayfairDisplay-MediumItalic.ttf
+          style: italic
+          weight: 500
+        - asset: assets/fonts/PlayfairDisplay-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/PlayfairDisplay-SemiBoldItalic.ttf
+          style: italic
+          weight: 600
+        - asset: assets/fonts/PlayfairDisplay-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/PlayfairDisplay-BoldItalic.ttf
+          style: italic
+          weight: 700
+        - asset: assets/fonts/PlayfairDisplay-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/PlayfairDisplay-ExtraBoldItalic.ttf
+          style: italic
+          weight: 800
+        - asset: assets/fonts/PlayfairDisplay-Black.ttf
+          weight: 900
+        - asset: assets/fonts/PlayfairDisplay-BlackItalic.ttf
+          style: italic
+          weight: 900
